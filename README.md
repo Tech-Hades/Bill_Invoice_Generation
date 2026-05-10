@@ -32,6 +32,7 @@ A full-stack invoice and billing management system developed during internship u
 ```plaintext
 billing_api/
 public/
+screenshots/
 src/
 README.md
 billing_portal.sql
@@ -124,22 +125,20 @@ http://localhost:5173
 ## 🖼 Screenshots
 
 ### Registration Page
-![Registration Page](screenshots/registration.png)
+![Registration Page](screenshots/3.png)
 
 ### Login Page
-![Login Page](screenshots/login.png)
+![Login Page](screenshots/2.png)
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/6.png)
 
 ### Invoice Management of 1st Company
-![Invoice Management](screenshots/invoice.png)
+![Invoice Management 1](screenshots/9.png)
 
 ### Invoice Management of 2nd Company
-![Invoice Management](screenshots/invoice.png)
+![Invoice Management 2](screenshots/10.png)
 
-### Client Management
-![Client Management](screenshots/clients.png)
 
 
 ## 📌 Internship Major Project
