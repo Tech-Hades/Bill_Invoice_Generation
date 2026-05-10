@@ -149,5 +149,6 @@ Developed as part of internship training to gain practical experience in full-st
 
 ## 👨‍💻 Author
 
-Renuka
+Renuka S U  
 Electronics & Communication Engineering
+
