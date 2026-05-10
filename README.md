@@ -1,65 +1,43 @@
 # Small Business Invoice & Billing Portal
 
-A full-stack web application developed during internship for managing invoices, clients, billing records, and payment tracking for small businesses. The system was built using React.js for the frontend, PHP REST APIs for the backend, and MySQL for database management following a 3-tier architecture model.
-
-The project provides a responsive dashboard interface where businesses can securely manage clients, generate invoices dynamically, track payment statuses, and monitor business analytics efficiently.
+A full-stack invoice and billing management system developed during internship using React.js, PHP, and MySQL. The project helps small businesses manage clients, generate invoices, track payments, and monitor billing activities through a responsive web interface.
 
 ---
 
 ## 🚀 Features
 
-- Secure User Authentication
-- Responsive Dashboard UI
-- Client Management System
-- Dynamic Invoice Generation
-- Invoice History & Tracking
-- Payment Status Monitoring
-- RESTful API Integration
-- Multi-Tenant Business Support
-- Real-Time Dashboard Analytics
-- Relational Database Management
-- Prepared Statements using PDO
-- Secure Password Hashing with bcrypt
-- ON DELETE CASCADE Database Integrity
+- Secure Login & Authentication
+- Client Management
+- Invoice Generation
+- Payment Status Tracking
+- Dashboard Analytics
+- REST API Integration
+- Responsive User Interface
 
 ---
 
 ## 🛠 Technologies Used
 
-### Frontend
 - React.js
+- PHP
+- MySQL
 - Tailwind CSS
 - Axios
-- JavaScript
-- HTML5
-- CSS3
-
-### Backend
-- PHP 8.x
-- RESTful APIs
-
-### Database
-- MySQL
-
-### Tools & Environment
 - XAMPP
-- Git & GitHub
-- VS Code
 
 ---
 
-## 🏗 System Architecture
+## 📂 Project Structure
 
-The project follows a 3-tier architecture:
-
-1. **Presentation Layer**
-   - React.js frontend for user interaction
-
-2. **Application Layer**
-   - PHP REST API backend for business logic and communication
-
-3. **Data Layer**
-   - MySQL relational database for secure data storage
+```plaintext
+billing_api/
+public/
+src/
+README.md
+billing_portal.sql
+package.json
+package-lock.json
+```
 
 ---
 
@@ -67,11 +45,8 @@ The project follows a 3-tier architecture:
 
 ### 1. Install Required Software
 
-Install the following before running the project:
-
 - Node.js
 - XAMPP
-- Git
 - VS Code (Recommended)
 
 ---
@@ -79,21 +54,21 @@ Install the following before running the project:
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Small-Business-Invoice-Portal.git
+git clone https://github.com/your-username/your-repository-name.git
 ```
 
 ---
 
 ### 3. Setup Frontend
 
-Open terminal inside the `frontend` folder and run:
+Open terminal in the project folder and run:
 
 ```bash
 npm install
 npm run dev
 ```
 
-The React frontend will start on:
+Frontend runs on:
 
 ```plaintext
 http://localhost:5173
@@ -103,23 +78,13 @@ http://localhost:5173
 
 ### 4. Setup Backend
 
-Copy the `backend` folder into:
+Copy the `billing_api` folder into:
 
 ```plaintext
 C:\xampp\htdocs\
 ```
 
-Start:
-- Apache
-- MySQL
-
-from the XAMPP Control Panel.
-
-Backend API will run on:
-
-```plaintext
-http://localhost/backend/
-```
+Start Apache and MySQL from XAMPP.
 
 ---
 
@@ -129,162 +94,61 @@ http://localhost/backend/
 - Create a database named:
 
 ```plaintext
-invoice_portal
+billing_portal
 ```
 
-- Import the SQL file located inside:
+- Import:
 
 ```plaintext
-database/invoice_portal.sql
+billing_portal.sql
 ```
 
 ---
 
-### 6. Configure Database Connection
+### 6. Run the Project
 
-Open:
-
-```plaintext
-backend/config/database.php
-```
-
-Update credentials if required:
-
-```php
-$host = "localhost";
-$user = "root";
-$password = "";
-$database = "invoice_portal";
-```
-
----
-
-### 7. Run the Project
-
-- Start XAMPP services
-- Run React frontend using:
+Start the frontend using:
 
 ```bash
 npm run dev
 ```
 
-- Open browser and access:
+Open browser:
 
 ```plaintext
 http://localhost:5173
 ```
 
-The Invoice & Billing Portal will now run successfully.
-
-## ✅ Project Ready
-
-The Invoice & Billing Portal should now be running successfully with:
-
-- React Frontend
-- PHP Backend APIs
-- MySQL Database
-- XAMPP Server
-
-## 📊 Modules Implemented
-
-### Authentication Module
-- User login & registration
-- Password hashing using bcrypt
-- Session validation
-
-### Client Management Module
-- Add/Edit/Delete clients
-- Client record maintenance
-
-### Invoice Module
-- Dynamic invoice generation
-- Line item support
-- Invoice tracking
-
-### Payment Module
-- Paid/Pending status tracking
-- Payment monitoring dashboard
-
-### Dashboard Analytics
-- Total invoices
-- Revenue statistics
-- Pending payment insights
-
 ---
 
 ## 🖼 Screenshots
 
-## Login Page
+### Registration Page
+![Registration Page](screenshots/registration.png)
+
+### Login Page
 ![Login Page](screenshots/login.png)
 
----
-
-## Dashboard
+### Dashboard
 ![Dashboard](screenshots/dashboard.png)
 
----
+### Invoice Management of 1st Company
+![Invoice Management](screenshots/invoice.png)
 
-## Invoice Generation
-![Invoice Generation](screenshots/invoice.png)
+### Invoice Management of 2nd Company
+![Invoice Management](screenshots/invoice.png)
 
----
-
-## Client Management
+### Client Management
 ![Client Management](screenshots/clients.png)
 
----
 
-## Payment Tracking
-![Payment Tracking](screenshots/payments.png)
+## 📌 Internship Major Project
 
----
-
-## Database Schema
-![Database Schema](screenshots/database-schema.png)
+Developed as part of internship training to gain practical experience in full-stack web application development using modern frontend and backend technologies.
 
 ---
 
-## 📈 Learning Outcomes
+## 👨‍💻 Author
 
-Through this project, the following concepts were learned and implemented:
-
-- Full-Stack Web Development
-- REST API Development
-- Database Design & Relationships
-- Authentication & Security
-- CRUD Operations
-- Responsive UI Design
-- API Integration using Axios
-- Backend-Frontend Communication
-- Relational Database Management
-
----
-
-## 🔮 Future Improvements
-
-- PDF Invoice Export
-- Email Notifications
-- GST & Tax Automation
-- Role-Based Access Control
-- Cloud Deployment
-- Advanced Reporting & Analytics
-
----
-
-## 👨‍💻 Internship Major Project
-
-This project was developed as part of an internship major project to gain practical exposure to modern full-stack web development technologies and real-world business application development.
-
----
-
-## 📌 Author
-
-Developed by: Renuka Uvaraj
-Internship Project  
+Renuka
 Electronics & Communication Engineering
-
----
-
-## ⭐ GitHub Repository
-
-If you found this project useful, consider giving it a star ⭐
